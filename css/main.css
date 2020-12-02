@@ -1,25 +1,23 @@
 /*
 Colors
 white:    #DEDEDE
-gray1:    #9c9d97
-gray2:    #474f52
-dark:     #1d1c21
-dark2:    #29282f
-yellow:   #ffd83d
-orange:   #f9801d
+
+dark_remix: #080504
+light_remix: #6C87A4
+
+orange:   #DF6C2B
 red:      #b02e26
 brown:    #825432
-green1:   #80c71f
-green2:   #5d7c15
-skyblue:  #3ab3da
-teal:     #17a2b8
+green2:   #3C4820
+
 */
 
 body {
-  background-color: #1d1c21 !important;
+  background-color: #080504 !important;
   color: #DEDEDE;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1,
@@ -27,55 +25,62 @@ h2,
 h3,
 h4,
 h5 {
+  font-family: 'Orbitron', sans-serif;
   font-weight: 700;
   color: #1d1c21;
 }
 h3 {
   font-size: 1.4rem;
 }
+a {
+  color: #6C87A4 !important;
+}
 
 /* Header */
 .navbar {
-  background-color: #1d1c21;
-  border-bottom: 4px solid #17a2b8;
+  background-color: #080504;
+  border-bottom: 4px solid #6C87A4;
 }
 .navbar-brand {
-  color: #17a2b8 !important;
+  color: #DF6C2B !important;
 }
 
 .navbar-brand,
 .footer-logo {
+  font-family: 'Orbitron', sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
 }
 
 .nav-link {
-  transition: 1s ease-out;
+  transition: 0.5s ease-out;
   text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
 }
 .nav-link:hover {
-  background-color:#17a2b8;
-  color: #DEDEDE !important;
+  background-color:#6C87A4;
+  color: #151517 !important;
 }
 
 /* Content */
 .card {
-  border-bottom: 4px solid #17a2b8 !important;
+  border-bottom: 4px solid #6C87A4 !important;
   border-radius: 0 !important;
-  background-color: #29282f !important;
+  background-color: #151517 !important;
 }
 .card:hover {
-  border-bottom: 4px solid #f9801d !important;
+  border-bottom: 4px solid #DF6C2B !important;
 }
 
 .card-title, .card-text {
-  color: #DEDEDE !important;
+  color: #D3DBCC !important;
 }
 .card-title a {
-  color: #b8edf5;
+  color: #6C87A4;
 }
 .card-title a:hover {
-  color: #ffffff;
+  color: #DF6C2B;
 }
 .card-img-top {
   border: 0 !important;
@@ -112,14 +117,14 @@ h3 {
   margin: 0 auto 2rem;
   position: relative;
 
-  border: 2px solid #17a2b8;
+  border: 2px solid #6C87A4;
   box-shadow: 0 7px 20px rgba(255, 255, 255, .25 );
   border-radius: 50%;
 }
 .profile__name {
   font-size: 1.8rem;
   text-align: center;
-  color: #f9801d;
+  color: #DF6C2B;
 }
 .profile__prof {
   margin-bottom: 2rem;
@@ -133,7 +138,7 @@ h3 {
   margin: 3rem 1rem;
   font-size: 1.2rem;
   text-align: center;
-  color: #17a2b8;
+  color: #6C87A4;
 }
 .social {
   display: flex;
@@ -175,14 +180,7 @@ h3 {
 .text-muted {
   background-color: #100f13;
 }
-.float-right {
-  line-height: 1.4rem;
-  background-color: #17a2b8;
-  padding: 12px 18px;
-}
-.float-right a {
-  color: #000000 !important;
-}
+
 .footer-ty {
   list-style-type: none;
 }
