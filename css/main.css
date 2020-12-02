@@ -89,6 +89,7 @@ a {
   overflow: hidden;
 }
 .card-img-top img {
+  filter: brightness(50%); 
   border: 0 !important;
   border-radius: 0 !important;
   overflow: hidden;
