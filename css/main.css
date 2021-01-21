@@ -5,7 +5,7 @@ white:    #DEDEDE
 dark_remix: #080504
 light_remix: #6C87A4
 
-orange:   #f07b05
+orange:   #ff3c00;
 red:      #b02e26
 brown:    #825432
 green2:   #3C4820
@@ -40,11 +40,11 @@ h3 {
 }
 .navbar {
   background-color: #151517 !important;
-  border-bottom: 4px solid #f07b05;
+  border-bottom: 4px solid #ff3c00;;
   text-transform: uppercase;
 }
 .navbar-brand {
-  color: #f07b05 !important;
+  color: #ff3c00; !important;
 }
 
 .navbar-brand,
@@ -64,12 +64,12 @@ h3 {
   color: #DEDEDE !important;
 }
 .nav-link:hover {
-  background-color:#f07b05;
+  background-color:#ff3c00;;
   color: #151517 !important;
 }
 
 .nav-active {
-  background-color:#f07b05;
+  background-color:#ff3c00;;
   color: #151517 !important;
 }
 
@@ -86,7 +86,7 @@ h3 {
 .card-title-single_post {
   color: #D3DBCC !important;
   font-weight: 700;
-  border-left: 4px solid #f07b05;
+  border-left: 4px solid #ff3c00;;
   padding: 8px 4px 8px 18px;
   margin: 12px 0 18px 0;
 }
@@ -94,11 +94,11 @@ h3 {
 .card-title a {
   color: #D3DBCC;
   font-weight: 700;
-  border-left: 4px solid #f07b05;
+  border-left: 4px solid #ff3c00;;
   padding-left: 8px;
 }
 .card-title a:hover {
-  color: #f07b05;
+  color: #ff3c00;;
 }
 .card-img-top {
   border: 0 !important;
@@ -120,7 +120,7 @@ h3 {
 }
 
 .post_info {
-  color: #f07b05;
+  color: #ff3c00;;
 }
 
 .category_span {
@@ -141,19 +141,19 @@ h3 {
 }
 .profile__avatar {
   display: block;
-  width: 10rem;
-  height: 10rem;
+  /* width: 10rem;
+  height: 10rem; */
   margin: 0 auto 2rem;
   position: relative;
 
-  border: 2px solid #6C87A4;
-  box-shadow: 0 7px 20px rgba(255, 255, 255, .25 );
-  border-radius: 50%;
+  /* border: 1px solid #ECECEC; */
+  /* box-shadow: 0 7px 20px rgba(255, 255, 255, .25 ); */
+  /* border-radius: 50%; */
 }
 .profile__name {
   font-size: 1.8rem;
   text-align: center;
-  color: #f07b05;
+  color: #ff3c00;;
 }
 .profile__prof {
   margin-bottom: 2rem;
