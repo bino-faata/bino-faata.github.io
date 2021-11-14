@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookmarkMyBook</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <script src="script/main.js"></script>
+  </head>
+<body>
+
+<header class="container">
+    <div class="row">
+      <div class="column">
+        <h1 class="title">BookmarkMyBook</h1>
+      </div>
+    </div>
+    <div class="row">
+    <div class="column">
+        <button id="library">Books Library</button>
+        <button id="addBook">Add Books to Library</button>
+    </div>
+      <div class="column">
+        <button id="import">Import JSON to library</button>
+        <button id="export">Export JSON from library</button>
+      </div>
+    </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <form class="form">
+        <input type="text" data-text="author" placeholder="Author Name" class="bookInput">
+        <input type="text" data-text="title" placeholder="Book Title" class="bookInput">
+        <input type="text" data-text="genre" placeholder="Book Genre" class="bookInput">
+        <input type="text" data-text="poster" placeholder="Poster link" class="bookInput">
+        <button class="addBook" type="submit">
+          <b>Add Book</b>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row library" id="booksList"></div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <div class="import">
+        <h3>Paste JSON data previosly exported. Current data will be saved</h3>
+        <textarea id="libraryImport" cols="60" rows="30"></textarea>
+        <button id="importData">Import to Library</button>
+      </div>
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <div class="export">
+        <h3>Copy and save this data to file</h3>
+        <textarea id="libraryExport" cols="60" rows="30"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
