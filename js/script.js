@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector("#rickAstleyModal"),
     {}
   );
-  // rickModal.toggle();
+  rickModal.toggle();
 
   // Selecting DOM Objects by Class name
   const educationClass = document.querySelector(".education");
