@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "#000000",
     "#FFFFFF"
   ];
-  const shadowClassName = shadowClassName;
+  const shadowClassName = "shadow";
   const flatShadowClassName = "flatshadow";
   const educationClass = document.querySelector(".education");
   const aboutClass = document.querySelector(".about");
