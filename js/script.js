@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
     rickModal.toggle();
   });
   const shadowClassName = "shadow";
-  const flatShadowClassName = "flatshadow";
   
   // Event Listeners
   educationClass.addEventListener("mouseenter", checkEducationShadowClass);
