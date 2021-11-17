@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Runners
   function checkEducationShadowClass() {
-    if (educationClass.classList.contains(shadowClassName + "&nbsp;" + flatClassName)) {
+    if (educationClass.classList.contains(shadowClassName)) {
       educationClass.classList.remove(shadowClassName + "&nbsp;" + flatClassName);
     } else {
       educationClass.classList.add(shadowClassName + "&nbsp;" + flatClassName);
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function checkAboutShadowClass() {
-    if (aboutClass.classList.contains(shadowClassName + "&nbsp;" + flatClassName)) {
+    if (aboutClass.classList.contains(shadowClassName)) {
       aboutClass.classList.remove(shadowClassName + "&nbsp;" + flatClassName);
     } else {
       aboutClass.classList.add(shadowClassName + "&nbsp;" + flatClassName);
@@ -71,28 +71,28 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function checkSkillsShadowClass() {
-    if (skillsClass.classList.contains(shadowClassName + "&nbsp;" + flatClassName)) {
+    if (skillsClass.classList.contains(shadowClassName)) {
       skillsClass.classList.remove(shadowClassName + "&nbsp;" + flatClassName);
     } else {
       skillsClass.classList.add(shadowClassName + "&nbsp;" + flatClassName);
     }
   }
   function checkLanguagesShadowClass() {
-    if (languagesClass.classList.contains(shadowClassName + "&nbsp;" + flatClassName)) {
+    if (languagesClass.classList.contains(shadowClassName)) {
       languagesClass.classList.remove(shadowClassName + "&nbsp;" + flatClassName);
     } else {
       languagesClass.classList.add(shadowClassName + "&nbsp;" + flatClassName);
     }
   }
   function checkContactsShadowClass() {
-    if (contactClass.classList.contains(shadowClassName + "&nbsp;" + flatClassName)) {
+    if (contactClass.classList.contains(shadowClassName)) {
       contactClass.classList.remove(shadowClassName + "&nbsp;" + flatClassName);
     } else {
       contactClass.classList.add(shadowClassName + "&nbsp;" + flatClassName);
     }
   }
   function checkExperienceShadowClass() {
-    if (experienceClass.classList.contains(shadowClassName + "&nbsp;" + flatClassName)) {
+    if (experienceClass.classList.contains(shadowClassName)) {
       experienceClass.classList.remove(shadowClassName + "&nbsp;" + flatClassName);
     } else {
       experienceClass.classList.add(shadowClassName + "&nbsp;" + flatClassName);
