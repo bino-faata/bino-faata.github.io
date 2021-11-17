@@ -21,23 +21,23 @@ document.addEventListener("DOMContentLoaded", () => {
     "#000000",
     "#FFFFFF"
   ];
-  const shadowClassName = "shadow";
-  const flatShadowClassName = "flatshadow";
   const educationClass = document.querySelector(".education");
   const aboutClass = document.querySelector(".about");
   const skillsClass = document.querySelector(".skills");
   const languagesClass = document.querySelector(".languages");
   const contactClass = document.querySelector(".contact");
   const experienceClass = document.querySelector(".experience");
-
+  
   const headerString = document.querySelector(".hello");
   const helloString = "Hi my name is Maxim and i`m web developer";
-
+  
   const closeModal = document.querySelector("#closeModal");
   closeModal.addEventListener("click", () => {
     rickModal.toggle();
   });
-
+  const shadowClassName = "shadow";
+  const flatShadowClassName = "flatshadow";
+  
   // Event Listeners
   educationClass.addEventListener("mouseenter", checkEducationShadowClass);
   educationClass.addEventListener("mouseleave", checkEducationShadowClass);
