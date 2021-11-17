@@ -5,7 +5,24 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   rickModal.toggle();
 
-  // Selecting DOM Objects by Class name
+  // Vars
+  const colors = [
+    "#0d6efd",
+    "#6610f2",
+    "#6f42c1",
+    "#d63384",
+    "#dc3545",
+    "#fd7e14",
+    "#ffc107",
+    "#198754",
+    "#20c997",
+    "#0dcaf0",
+    "#adb5bd",
+    "#000000",
+    "#FFFFFF"
+  ];
+  const shadowClassName = shadowClassName;
+  const flatShadowClassName = "flatshadow";
   const educationClass = document.querySelector(".education");
   const aboutClass = document.querySelector(".about");
   const skillsClass = document.querySelector(".skills");
@@ -37,68 +54,54 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Runners
   function checkEducationShadowClass() {
-    if (educationClass.classList.contains("shadow")) {
-      educationClass.classList.remove("shadow");
+    if (educationClass.classList.contains(shadowClassName)) {
+      educationClass.classList.remove(shadowClassName);
     } else {
-      educationClass.classList.add("shadow");
+      educationClass.classList.add(shadowClassName);
     }
   }
 
   function checkAboutShadowClass() {
-    if (aboutClass.classList.contains("shadow")) {
-      aboutClass.classList.remove("shadow");
+    if (aboutClass.classList.contains(shadowClassName)) {
+      aboutClass.classList.remove(shadowClassName);
     } else {
-      aboutClass.classList.add("shadow");
+      aboutClass.classList.add(shadowClassName);
     }
   }
 
   function checkSkillsShadowClass() {
-    if (skillsClass.classList.contains("shadow")) {
-      skillsClass.classList.remove("shadow");
+    if (skillsClass.classList.contains(shadowClassName)) {
+      skillsClass.classList.remove(shadowClassName);
     } else {
-      skillsClass.classList.add("shadow");
+      skillsClass.classList.add(shadowClassName);
     }
   }
   function checkLanguagesShadowClass() {
-    if (languagesClass.classList.contains("shadow")) {
-      languagesClass.classList.remove("shadow");
+    if (languagesClass.classList.contains(shadowClassName)) {
+      languagesClass.classList.remove(shadowClassName);
     } else {
-      languagesClass.classList.add("shadow");
+      languagesClass.classList.add(shadowClassName);
     }
   }
   function checkContactsShadowClass() {
-    if (contactClass.classList.contains("shadow")) {
-      contactClass.classList.remove("shadow");
+    if (contactClass.classList.contains(shadowClassName)) {
+      contactClass.classList.remove(shadowClassName);
     } else {
-      contactClass.classList.add("shadow");
+      contactClass.classList.add(shadowClassName);
     }
   }
   function checkExperienceShadowClass() {
-    if (experienceClass.classList.contains("shadow")) {
-      experienceClass.classList.remove("shadow");
+    if (experienceClass.classList.contains(shadowClassName)) {
+      experienceClass.classList.remove(shadowClassName);
     } else {
-      experienceClass.classList.add("shadow");
+      experienceClass.classList.add(shadowClassName);
     }
   }
 
   // Colorize the main header string
   function changeHelloString() {
     let helloStringArray = [];
-    const colors = [
-      "#0d6efd",
-      "#6610f2",
-      "#6f42c1",
-      "#d63384",
-      "#dc3545",
-      "#fd7e14",
-      "#ffc107",
-      "#198754",
-      "#20c997",
-      "#0dcaf0",
-      "#adb5bd",
-      "#000000",
-      "#FFFFFF"
-    ];
+
     let randColor = color => {
       return colors[Math.floor(Math.random() * colors.length)];
     };
