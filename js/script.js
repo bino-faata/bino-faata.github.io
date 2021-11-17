@@ -55,47 +55,47 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Runners
   function checkEducationShadowClass() {
-    if (educationClass.classList.contains(shadowClassName + flatClassName)) {
-      educationClass.classList.remove(shadowClassName + flatClassName);
+    if (educationClass.classList.contains(shadowClassName + " " + flatClassName)) {
+      educationClass.classList.remove(shadowClassName + " " + flatClassName);
     } else {
-      educationClass.classList.add(shadowClassName + flatClassName);
+      educationClass.classList.add(shadowClassName + " " + flatClassName);
     }
   }
 
   function checkAboutShadowClass() {
-    if (aboutClass.classList.contains(shadowClassName + flatClassName)) {
-      aboutClass.classList.remove(shadowClassName + flatClassName);
+    if (aboutClass.classList.contains(shadowClassName + " " + flatClassName)) {
+      aboutClass.classList.remove(shadowClassName + " " + flatClassName);
     } else {
-      aboutClass.classList.add(shadowClassName + flatClassName);
+      aboutClass.classList.add(shadowClassName + " " + flatClassName);
     }
   }
 
   function checkSkillsShadowClass() {
-    if (skillsClass.classList.contains(shadowClassName + flatClassName)) {
-      skillsClass.classList.remove(shadowClassName + flatClassName);
+    if (skillsClass.classList.contains(shadowClassName + " " + flatClassName)) {
+      skillsClass.classList.remove(shadowClassName + " " + flatClassName);
     } else {
-      skillsClass.classList.add(shadowClassName + flatClassName);
+      skillsClass.classList.add(shadowClassName + " " + flatClassName);
     }
   }
   function checkLanguagesShadowClass() {
-    if (languagesClass.classList.contains(shadowClassName + flatClassName)) {
-      languagesClass.classList.remove(shadowClassName + flatClassName);
+    if (languagesClass.classList.contains(shadowClassName + " " + flatClassName)) {
+      languagesClass.classList.remove(shadowClassName + " " + flatClassName);
     } else {
-      languagesClass.classList.add(shadowClassName + flatClassName);
+      languagesClass.classList.add(shadowClassName + " " + flatClassName);
     }
   }
   function checkContactsShadowClass() {
-    if (contactClass.classList.contains(shadowClassName + flatClassName)) {
-      contactClass.classList.remove(shadowClassName + flatClassName);
+    if (contactClass.classList.contains(shadowClassName + " " + flatClassName)) {
+      contactClass.classList.remove(shadowClassName + " " + flatClassName);
     } else {
-      contactClass.classList.add(shadowClassName + flatClassName);
+      contactClass.classList.add(shadowClassName + " " + flatClassName);
     }
   }
   function checkExperienceShadowClass() {
-    if (experienceClass.classList.contains(shadowClassName + flatClassName)) {
-      experienceClass.classList.remove(shadowClassName + flatClassName);
+    if (experienceClass.classList.contains(shadowClassName + " " + flatClassName)) {
+      experienceClass.classList.remove(shadowClassName + " " + flatClassName);
     } else {
-      experienceClass.classList.add(shadowClassName + flatClassName);
+      experienceClass.classList.add(shadowClassName + " " + flatClassName);
     }
   }
 
