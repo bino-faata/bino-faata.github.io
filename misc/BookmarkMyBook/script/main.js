@@ -84,7 +84,7 @@ function app() {
   let booksCounter = 0;
   const bookInput = document.querySelectorAll(".bookInput");
   const addBookButton = document.querySelector(".addBook");
-  const bookList = document.querySelector(".booksList");
+  const bookList = document.querySelector("#booksList");
 
   // ** Look into localStorage and show it in browser if exists
   getBooks();
