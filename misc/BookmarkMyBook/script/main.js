@@ -164,6 +164,10 @@ function app() {
 
     if (localStorage.getItem("books") === null) {
       books = [];
+
+      // show message in #booksLibrary
+      bookList.innerHTML = "No books yet";
+
     } else {
       books = JSON.parse(localStorage.getItem("books"));
     }
